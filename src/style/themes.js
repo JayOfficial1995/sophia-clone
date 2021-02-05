@@ -31,12 +31,13 @@ export default {
   },
 
   breakPoints: {
-    smallDevices: "425px",
-    phones: "600px",
-    mediumDevices: "767px",
+    extraSmallDevices: "425px",
+    smallDevices: "600px",
+    phones: "767px",
     tablets: "768px",
-    largeDevices: "900px",
+    mediumDevices: "900px",
     laptops: "992px",
+    largeDevices: "1024px",
     extraLargeDevices: "1200px",
   },
 

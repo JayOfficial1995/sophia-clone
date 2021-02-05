@@ -1,19 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
     html {
         font-size: 62.5%;
 
-        body {
-            font-family: 'Lato', sans-serif;
-
-            * {
+         *   {
                 margin : 0;
                 padding: 0;
                 box-sizing: border-box;
             }
 
+        body {
+            font-family: 'Lato', sans-serif;
+           
             h1 {
                 font-size: 2.9rem
             }
@@ -23,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
             }
 
             p {
-            font-size: 1.8rem;
+                font-size: 1.8rem;
             }
         }
     }
